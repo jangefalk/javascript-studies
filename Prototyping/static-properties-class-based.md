@@ -23,3 +23,13 @@ class Person {
 
 console.log(Person.isLegal()) // true
 ```
+
+```js 
+class Person {
+  static isLegal() {
+    return true
+  }
+}
+
+console.log(Person.isLegal()) // true
+```
